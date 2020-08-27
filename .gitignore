@@ -8,7 +8,3 @@ tmp/
 *.iml
 
 *.swp
-
-.bloop/
-.metals
-project/metals.sbt
