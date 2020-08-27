@@ -368,6 +368,17 @@ object DataFrameExt {
       df.killDuplicates(df.columns.map(col): _*)
     }
 
+/*
+    /**
+     * Remove all duplicate columns from a DataFrame
+     * @return
+     */
+    def dropDuplicateCols(): DataFrame = {
+      // TODO: compare all cols 2 by 2
+      df
+    }
+*/
+
     /**
      * Rename columns
      * Here is how to lowercase all the columns df.renameColumns(_.toLowerCase)
